@@ -91,7 +91,7 @@ public class PersonResource {
     @DELETE
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    @Path("all")
+    @Path("alle")
     public String deletePerson() {
         System.out.println("deletePerson");
         return "{\"success\":true}";
